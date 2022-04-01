@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--color-primary-50:  255 247 249;  	/*#FCF7F9*/
+		--color-primary-300: 173 73 97;			/*#AD4961*/
+		--color-primary-500: 153 28 58;			/*#991C3A*/
+		--color-primary-700: 122 22 46;			/*#7A162E*/
+
+		--color-primary-altone-50:  251 240 234;		/*#FBF0EA*/
+		--color-primary-altone-300: 221 140 91;			/*#DD8C5B*/
+		--color-primary-altone-500: 213 112 50;			/*#D57032*/
+		--color-primary-altone-700: 170 89 40;			/*#AA5928*/
+
+		--color-primary-alttwo-50:  255 251 229;		/*#FFFBE5*/
+		--color-primary-alttwo-300: 248 219 54;			/*#F8DB36*/
+		--color-primary-alttwo-500: 247 210 4;			/*#F7D204*/
+		--color-primary-alttwo-700: 214 182 0;			/*#D6B600*/
+
+		--color-primary-altthree-50:  253 250 247;	/*#FDFAF7*/
+		--color-primary-altthree-300: 244 230 212;	/*#F4E6D4*/
+		--color-primary-altthree-500: 232 199 158;	/*#E8C79E*/
+		--color-primary-altthree-700: 222 176 118;	/*#DEB076*/
+
+		--color-secondary-50:  239 248 249;		/*#EFF8F9*/
+		--color-secondary-300: 128 201 207;		/*#80C9CF*/
+		--color-secondary-500: 98 188 196;		/*#62BCC4*/
+		--color-secondary-700: 78 150 156;		/*#4E969C*/
+
+		--color-light: 255 255 255;		/*#FFFFFF*/
+		--color-dark:  155 155 155;		/*#9B9B9B*/
+
+		--color-text: 57 54 54;				/*#393636*/
+
+		--color-background: 253 250 247;	/*#FDFAF7*/
+	}
+}
+
+@media (max-width: 1023px) {
+	html {
+		font-size: 93.75%;
+	}
+}
+
+@media (max-width: 639px) {
+	html {
+		font-size: 87.5%;
+	}
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}

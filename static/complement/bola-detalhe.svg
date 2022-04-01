@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="364" height="345" viewBox="0 0 364 345">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.38" y1="-0.079" x2="1.22" y2="1.848" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f7d204"/>
+      <stop offset="1" stop-color="#d57032"/>
+    </linearGradient>
+    <filter id="bola-detalhe" x="0" y="0" width="364" height="345" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-color="#e6a21b" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#bola-detalhe)">
+    <ellipse id="bola-detalhe-2" data-name="bola-detalhe" cx="122" cy="112.5" rx="122" ry="112.5" transform="translate(60 50)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.5" height="24.5" viewBox="0 0 21.5 24.5">
+  <g id="calendario" transform="translate(-3.1 -2.25)">
+    <path id="Caminho_1726" data-name="Caminho 1726" d="M24,3V7" transform="translate(-5.15)" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Caminho_1727" data-name="Caminho 1727" d="M12,3V7" transform="translate(-3.15)" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Caminho_1729" data-name="Caminho 1729" d="M12,3V7" transform="translate(1.85)" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Caminho_1728" data-name="Caminho 1728" d="M4.5,15h20" transform="translate(-0.65 -3.999)" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <rect id="Retângulo_4028" data-name="Retângulo 4028" width="20" height="21" rx="4" transform="translate(3.85 5)" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <rect id="Retângulo_4252" data-name="Retângulo 4252" width="1" height="1" transform="translate(7.849 21.001)" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <rect id="Retângulo_4259" data-name="Retângulo 4259" width="1" height="1" transform="translate(13.349 21.001)" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <rect id="Retângulo_4255" data-name="Retângulo 4255" width="1" height="1" transform="translate(7.849 15)" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <rect id="Retângulo_4258" data-name="Retângulo 4258" width="1" height="1" transform="translate(13.349 15)" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <rect id="Retângulo_4253" data-name="Retângulo 4253" width="1" height="1" transform="translate(18.85 21.001)" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <rect id="Retângulo_4256" data-name="Retângulo 4256" width="1" height="1" transform="translate(18.85 15)" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

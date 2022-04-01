@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="97.948" height="74.08" viewBox="0 0 97.948 74.08">
+  <g id="icones" transform="translate(9604.463 9135.896)">
+    <g id="brain" transform="translate(-1.93 -2.172)">
+      <path id="Icon_awesome-brain" data-name="Icon awesome-brain" d="M22.75,0a6.979,6.979,0,0,0-6.759,5.272c-.087,0-.153-.022-.241-.022a7.006,7.006,0,0,0-7,7,6.45,6.45,0,0,0,.186,1.531A8.675,8.675,0,0,0,4.408,25.692a8.718,8.718,0,0,0,1,15.641,8.015,8.015,0,0,0-.153,1.542,7.87,7.87,0,0,0,7.875,7.875,7.416,7.416,0,0,0,1.313-.131A7.856,7.856,0,0,0,29.75,48.125V7A7.006,7.006,0,0,0,22.75,0ZM63,33.25a8.7,8.7,0,0,0-4.408-7.558,8.608,8.608,0,0,0,.908-3.817,8.75,8.75,0,0,0-5.436-8.094A6.935,6.935,0,0,0,47.25,5.25c-.087,0-.164.022-.241.022A6.987,6.987,0,0,0,33.25,7V48.125a7.856,7.856,0,0,0,15.313,2.494,7.416,7.416,0,0,0,1.313.131,7.87,7.87,0,0,0,7.875-7.875,8.015,8.015,0,0,0-.153-1.542A8.75,8.75,0,0,0,63,33.25Z" transform="translate(-9582.531 -9132.725)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="111 6"/>
+      <path id="Caminho_1964" data-name="Caminho 1964" d="M1.717,1.408a1,1,0,0,1,.754,1.656,6,6,0,0,0-.524,7.173A1,1,0,1,1,.265,11.318a8,8,0,0,1,.7-9.567A1,1,0,0,1,1.717,1.408Z" transform="translate(-9535.359 -9118.725) rotate(180)" fill="#fff"/>
+      <circle id="Elipse_224" data-name="Elipse 224" cx="7.912" cy="7.912" r="7.912" transform="translate(-9568.26 -9076.066) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="7 40"/>
+      <circle id="Elipse_229" data-name="Elipse 229" cx="7.912" cy="7.912" r="7.912" transform="matrix(0.951, 0.309, -0.309, 0.951, -9579.699, -9109.479)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="9 50"/>
+      <circle id="Elipse_226" data-name="Elipse 226" cx="8.712" cy="8.712" r="8.712" transform="translate(-9570.26 -9117.289)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="13 40"/>
+      <circle id="Elipse_227" data-name="Elipse 227" cx="3.212" cy="3.212" r="3.212" transform="translate(-9544.031 -9091.596)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="6 40"/>
+      <circle id="Elipse_228" data-name="Elipse 228" cx="3.212" cy="3.212" r="3.212" transform="translate(-9564.76 -9121.936)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="6 40"/>
+      <circle id="Elipse_225" data-name="Elipse 225" cx="7.912" cy="7.912" r="7.912" transform="translate(-9535.355 -9091.598) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="24 40"/>
+      <path id="Elipse_226-2" data-name="Elipse 226" d="M5.412-1A6.413,6.413,0,0,1,11.8,4.819,1,1,0,0,1,9.805,5,4.413,4.413,0,0,0,5.412,1a1,1,0,0,1-1-1A1,1,0,0,1,5.412-1Z" transform="translate(-9544.475 -9109.877)" fill="#fff"/>
+    </g>
+    <path id="heart" d="M13.491,5.426a3.2,3.2,0,0,0-4.5,0l-.614.611L7.76,5.426a3.2,3.2,0,0,0-4.5,0,3.157,3.157,0,0,0,0,4.481l.614.611L8.374,15l4.5-4.481.614-.611A3.156,3.156,0,0,0,13.491,5.426Z" transform="translate(-9529.835 -9077.814)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="cruz" d="M4,4H4V4H4V4Z" transform="translate(-9515.515 -9126.223)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <g id="nota" transform="translate(-10293.461 -11114.223)">
+      <path id="Caminho_1827" data-name="Caminho 1827" d="M24.433,13.541a10.741,10.741,0,0,1-5-2.755v12" transform="translate(676.564 1977.214)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="190 10"/>
+      <path id="Caminho_1828" data-name="Caminho 1828" d="M22.421,15.054a3,3,0,1,1-5.254-1.988" transform="translate(673.577 1984.934)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="190 10"/>
+    </g>
+  </g>
+</svg>
