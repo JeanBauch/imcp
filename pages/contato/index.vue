@@ -6,7 +6,7 @@
 		>
 			<div class="container grid grid-cols-1 justify-items-center">
 				<p class="w-11/12 lg:w-9/12 my-8 text-xs">
-					Início <bold>></bold> <span class="text-gray">Contato</span>
+					Início <strong>></strong> <span class="text-gray">Contato</span>
 				</p>
 				<h1 class="text-6xl font-semibold text-primary-orange-500">
 					Contato
@@ -47,7 +47,7 @@ import Vue from 'vue';
 import Header from '~/components/organisms/Header.vue';
 import Form from '~/components/molecules/Form.vue';
 export default Vue.extend({
-	name: 'ContactPage',
+	name: 'IndexContato',
 	components: {
 		Header,
 		Form,
