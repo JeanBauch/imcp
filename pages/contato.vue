@@ -11,7 +11,7 @@
 				<h1 class="text-6xl font-semibold text-primary-orange-500">
 					Contato
 				</h1>
-				<span class="my-8">Separador...</span>
+				<span class="my-8">Separador.....</span>
 				<div class="flex flex-col flex-wrap  lg:flex-row justify-center lg:justify-around w-11/12 xl:w-9/12">
 					<Form />
 
