@@ -1,0 +1,31 @@
+name: dev pipeline
+on:
+  pull_request:
+    types: [synchronize, opened, reopened, ready_for_review]
+  push:
+    branches:
+      - main
+
+
+jobs:
+  quality-gate:
+    runs-on: ubuntu-latest
+    name: imcp-quality-gate
+
+    defaults:
+      run:
+        working-directory: .
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: setup-node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+
+      - name: install dependencies
+        run: npm install
+
+      - name: run tests
+        run: npm run test
