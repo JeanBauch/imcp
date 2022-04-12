@@ -17,7 +17,7 @@
 
 					<div class="w-full lg:max-w-md flex flex-row lg:flex-col flex-wrap justify-around">
 						<div class="grid grid-cols-1 lg:grid-cols-2 text-center justify-items-center">
-							<i class="w-20 lg:w-52 h-20 lg:h-52 "><img src="../static/icons/large-colors/phone.svg" alt="" srcset=""></i>
+							<i class="w-20 lg:w-52 h-20 lg:h-52 "><img src="icons/large-colors/phone.svg" alt="" srcset=""></i>
 							<span class="flex flex-col justify-center lg:text-left">
 								<h2 class="font-semibold text-3xl lg:text-4xl pt-4 pb-2 lg:pb-4 lg:pt-0">Telefones</h2>
 								<p>55 (24) 21044100</p>
@@ -25,7 +25,7 @@
 							</span>
 						</div>
 						<div class="grid grid-cols-1 lg:grid-cols-2 text-center justify-items-center lg:mb-16">
-							<i class="w-20 lg:w-52 h-20 lg:h-52 "><img src="../static/icons/large-colors/local-icon.svg" alt="" srcset=""></i>
+							<i class="w-20 lg:w-52 h-20 lg:h-52 "><img src="icons/large-colors/local-icon.svg" alt="" srcset=""></i>
 							<span class="flex flex-col justify-center lg:text-left">
 								<h2 class="font-semibold text-3xl lg:text-4xl pt-4 pb-2 lg:pb-4 lg:pt-0">Telefones</h2>
 								<p>55 (24) 21044100</p>
@@ -36,7 +36,7 @@
 				</div>
 			</div>
 			<div class="w-full my-10">
-				<img src="../static/maps/maps2x.png" alt="" srcset="">
+				<img src="maps/maps2x.png" alt="" srcset="">
 			</div>
 		</section>
 	</div>
