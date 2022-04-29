@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components:atoms:MenuButtonBurguer Snapshots should render component 1`] = `
+"<div class=\\"menu-btn\\">
+  <div class=\\"menu-burguer\\"></div>
+</div>"
+`;

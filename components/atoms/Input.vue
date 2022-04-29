@@ -3,7 +3,9 @@
 		:id="id"
 		:type="type"
 		:name="name"
-		class="bg-transparent border-primary-bordo-500 rounded-3xl border p-2 focus:bg-white"
+		:class="`bg-${background}`"
+		:required="required ? 'required': null"
+		class="rounded-[30px] border p-2 pl-7  focus:bg-white"
 	>
 </template>
 
@@ -16,6 +18,12 @@ export default Vue.extend({
 		id: { type: String, required: true },
 		type: { type: String, required: true },
 		name: { type: String, required: true },
+		required: { type: Boolean, required: true },
+		background: {
+			required: true,
+			type: String,
+			default: 'transparent',
+		},
 	},
 });
 </script>

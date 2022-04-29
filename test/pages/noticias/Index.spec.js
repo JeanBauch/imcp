@@ -1,21 +1,23 @@
 import { mount } from '@vue/test-utils';
 
-import Contato from '~/pages/contato/index.vue';
+import Index from '~/pages/noticias/index.vue';
 
 describe('Pages:index', () => {
 	let mountConfig;
+
 	beforeEach(() => {
 		mountConfig = {
 			stubs: {
-				Header: true,
-				Form: true,
+				Breadcrumb: true,
+				TitlePage: true,
+				CardNoticia: true,
 			},
 		};
 	});
 
 	describe('Snapshots', () => {
-		it('Should render all child componets - pageContato', () => {
-			const wrapper = mount(Contato, mountConfig);
+		it('Should render all child componets', () => {
+			const wrapper = mount(Index, mountConfig);
 			expect(wrapper.html()).toMatchSnapshot();
 		});
 	});

@@ -1,11 +1,12 @@
 <template>
-	<div class="menu-btn" @click="handleClickOpenMenu">
+	<div class="menu-btn" @click="handleClickOpenMenu()">
 		<div class="menu-burguer" />
 	</div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
+import { toggleClass } from '~/utils';
 
 export default Vue.extend({
 	data () {
@@ -18,12 +19,12 @@ export default Vue.extend({
 			const menuBtn = document.querySelector('.menu-btn');
 			const navList = document.getElementById('navList');
 			if (!this.menuOPen) {
-				menuBtn?.classList.add('open');
-				navList?.classList.add('open');
+				toggleClass(menuBtn, 'open');
+				toggleClass(navList, 'open');
 				this.menuOPen = true;
 			} else {
-				menuBtn?.classList.remove('open');
-				navList?.classList.remove('open');
+				toggleClass(menuBtn, 'open');
+				toggleClass(navList, 'open');
 				this.menuOPen = false;
 			}
 		},

@@ -1,7 +1,7 @@
 export default {
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: 'imcp',
+		title: 'IMCP',
 		htmlAttrs: {
 			lang: 'en',
 		},
@@ -22,11 +22,14 @@ export default {
 	// Global CSS: https://go.nuxtjs.dev/config-css
 	css: [
 		'@/assets/css/main.css',
-		'@/assets/css/components.css',
+		'~/assets/css/components.css',
 	],
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [
+		'@/plugins/carrossel-glide.ts',
+		{ src: '@/node_modules/@glidejs/glide/dist/css/glide.core.min.css' },
+		{ src: '@/node_modules/@glidejs/glide/dist/css/glide.theme.min.css' },
 	],
 
 	// Auto import components: https://go.nuxtjs.dev/config-components
@@ -38,13 +41,28 @@ export default {
 		'@nuxt/typescript-build',
 		// https://go.nuxtjs.dev/tailwindcss
 		'@nuxtjs/tailwindcss',
+		'@nuxt/postcss8',
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: [
+		// https://go.nuxtjs.dev/axios
+		'@nuxtjs/axios',
 	],
+
+	// Axios module configuration: https://go.nuxtjs.dev/config-axios
+	axios: {
+		// Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
+		baseURL: '/',
+	},
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {
+		postcss: {
+			plugins: {
+				tailwindcss: {},
+				autoprefixer: {},
+			},
+		},
 	},
 };

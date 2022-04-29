@@ -2,9 +2,9 @@
 	<nav id="navList" class="h-0 container mx-auto items-center justify-start px-6 sm:px-9 rounded-b-3xl transition-all ease-in-out duration-700 md:hidden">
 		<ul class="flex flex-col gap-2 border-t-2 border-gray border-opacity-20 w-full pt-4 invisible opacity-0">
 			<li v-for="(item, key) in dataHeader" :key="key" class="text-white hover:font-semibold">
-				<nuxt-link :to="item.link">
+				<router-link :to="item.link">
 					{{ item.name }}
-				</nuxt-link>
+				</router-link>
 			</li>
 		</ul>
 	</nav>
@@ -19,35 +19,35 @@ export default Vue.extend({
 			dataHeader: [
 				{
 					name: 'Início',
-					link: '/',
+					link: 'index',
 				},
 				{
 					name: 'Instituto',
-					link: '/',
+					link: 'instituto',
 				},
 				{
 					name: 'Escola de Música',
-					link: '/',
+					link: 'utilites',
 				},
 				{
 					name: 'Midia',
-					link: '/',
+					link: 'utilites',
 				},
 				{
 					name: 'Noticias',
-					link: '/',
+					link: 'noticias',
 				},
 				{
 					name: 'Agenda',
-					link: '/',
+					link: 'utilites',
 				},
 				{
 					name: 'Contato',
-					link: '/',
+					link: 'contato',
 				},
 				{
 					name: 'Transparência',
-					link: '/',
+					link: 'utilites',
 				},
 			],
 		};

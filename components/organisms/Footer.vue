@@ -77,7 +77,7 @@ export default Vue.extend({
 				},
 				{
 					name: 'Noticias',
-					link: '/',
+					link: '/noticias',
 				},
 				{
 					name: 'Agenda',
@@ -85,7 +85,7 @@ export default Vue.extend({
 				},
 				{
 					name: 'Contato',
-					link: '/',
+					link: '/contato',
 				},
 				{
 					name: 'Transparência',

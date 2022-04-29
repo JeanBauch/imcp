@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages:index Snapshots Should render all child componets - pageContato 1`] = `
+"<div class=\\"bg-background\\">
+  <section class=\\"container mx-auto px-6 sm:px-9 lg:px-24\\">
+    <div class=\\"flex flex-1 py-3\\">
+      <breadcrumb-stub crumbs=\\"[object Object],[object Object]\\"></breadcrumb-stub>
+    </div>
+    <div class=\\"flex flex-1 items-center justify-center mt-4 md:mt-8 mb-8 md:mb-10\\">
+      <titlepage-stub title=\\"Contato\\" titlecolor=\\"orange\\" separetorcolor=\\"yellow\\" width=\\"w-full\\"></titlepage-stub>
+    </div>
+  </section>
+  <section class=\\"bg-background flex flex-col items-center justify-center text-black theme-imcp\\">
+    <div class=\\"container grid grid-cols-1 justify-items-center\\">
+      <div class=\\"flex flex-col flex-wrap lg:flex-row justify-center lg:justify-around xl:justify-start w-11/12 2xl:w-4/5\\">
+        <form-stub color=\\"bordo\\" bgcolorweight=\\"500\\" telcolor=\\"#991C3A\\" inputbg=\\"transparent\\" labelweight=\\"semibold\\" mensagem=\\"true\\" btncolor=\\"yellow\\" bordercolor=\\"bordo\\" width=\\"w-11/12 lg:w-4/5\\" class=\\"xl:w-3/6\\"></form-stub>
+        <div class=\\"flex flex-row xl:flex-col flex-wrap justify-around lg:justify-center lg:gap-20 w-full xl:max-w-lg\\">
+          <div class=\\"grid grid-cols-1 xl:grid-cols-2 justify-items-center mb-1\\"><i class=\\"h-20 xl:h-52 w-20 xl:w-52\\"><img src=\\"icons/large-colors/phone.svg\\" alt=\\"\\" srcset=\\"\\"></i> <span class=\\"flex flex-col justify-center text-center md:text-left text-lg xl:min-w-[250px]\\"><h2 class=\\"font-semibold pt-4 pb-2 xl:pb-4 xl:pt-0 text-3xl xl:text-[40px]\\">Telefones</h2> <p>55 (24) 21044100</p> <p>55 (24) 21044100</p></span></div>
+          <div class=\\"grid grid-cols-1 xl:grid-cols-2 justify-items-center xl:mb-16\\"><i class=\\"h-20 xl:h-52 w-20 xl:w-52\\"><img src=\\"icons/large-colors/local-icon.svg\\" alt=\\"\\" srcset=\\"\\"></i> <span class=\\"flex flex-col justify-center text-center md:text-left text-lg xl:min-w-[250px]\\"><h2 class=\\"font-semibold pt-4 pb-2 xl:pb-4 xl:pt-0 text-3xl xl:text-[40px]\\">Endereço</h2> <p>Rua Santos Dumont -<br class=\\"md:hidden\\"> 355 <br class=\\"hidden md:block\\"> Petrópolis - RJ</p></span></div>
+        </div>
+      </div>
+    </div>
+    <div class=\\"mt-18 lg:mt-0 mb-10 w-full\\"><img src=\\"maps/maps2x.png\\" alt=\\"\\" srcset=\\"\\"></div>
+  </section>
+</div>"
+`;

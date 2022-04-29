@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components:molecules:CardDescription Snapshots should render component with correctly props 1`] = `
+"<div class=\\"flex lg:justify-end items-center mb-18  scale-[90%] sm:scale-100\\">
+  <div class=\\"max-w-[430px] h-[310px] lg:max-w-[570px] lg:h-[450px] flex justify-center relative items-center bg-primary-bordo-500\\" style=\\"border-radius: 36% 64% 79% 21% / 47% 38% 62% 53%;\\">
+    <div class=\\"bg-white lg:w-[570px] lg:h-[450px] lg:max-w-[570px] max-w-[430px] w-full h-[310px] justify-center items-center absolute top-[15px] border bg-transparent border-primary-bordo-700\\" style=\\"border-radius: 36% 64% 79% 21% / 47% 38% 62% 53%;\\"></div>
+    <div class=\\"w-4/5\\">
+      <div>
+        <h2 class=\\"font-semibold text-3xl lg:text-[40px] leading-[48px] text-white\\">
+          Venha fazer aulas de <span class=\\"text-primary-bordo-500\\">Piano</span> na nossa<br> <span class=\\"text-primary-bordo-500\\">Escola de Música!</span></h2>
+        <p class=\\"lg:text-2xl pt-4 text-white w-11/12\\">
+          O nosso objetivo vai além da formação musical, formando cidadãos de bem.
+        </p>
+      </div>
+    </div> <img src=\\"icons/normal-colors/nota-musical(1).svg\\" alt=\\"\\" srcset=\\"\\" class=\\"visible absolute right-0 bottom-0 w-18 h-18\\">
+  </div>
+</div>"
+`;

@@ -1,5 +1,5 @@
 <template>
-	<label :for="target" class="font-semibold mb-2 mt-4">
+	<label :for="forinput" class="mb-2 mt-4 text-base">
 		{{ title }}
 	</label>
 </template>
@@ -10,7 +10,7 @@ import Vue from 'vue';
 export default Vue.extend({
 	name: 'Label',
 	props: {
-		target: { type: String, required: true },
+		forinput: { type: String, required: true },
 		title: { type: String, required: true },
 	},
 });

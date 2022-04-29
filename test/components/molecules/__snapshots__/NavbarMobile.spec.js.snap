@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components:molecules:NavbarMobile Snapshots should render component 1`] = `
+"<nav id=\\"navList\\" class=\\"h-0 container mx-auto items-center justify-start px-6 sm:px-9 rounded-b-3xl transition-all ease-in-out duration-700 md:hidden\\">
+  <ul class=\\"flex flex-col gap-2 border-t-2 border-gray border-opacity-20 w-full pt-4 invisible opacity-0\\">
+    <li class=\\"text-white hover:font-semibold\\"><a>
+        Início
+      </a></li>
+    <li class=\\"text-white hover:font-semibold\\"><a>
+        Instituto
+      </a></li>
+    <li class=\\"text-white hover:font-semibold\\"><a>
+        Escola de Música
+      </a></li>
+    <li class=\\"text-white hover:font-semibold\\"><a>
+        Midia
+      </a></li>
+    <li class=\\"text-white hover:font-semibold\\"><a>
+        Noticias
+      </a></li>
+    <li class=\\"text-white hover:font-semibold\\"><a>
+        Agenda
+      </a></li>
+    <li class=\\"text-white hover:font-semibold\\"><a>
+        Contato
+      </a></li>
+    <li class=\\"text-white hover:font-semibold\\"><a>
+        Transparência
+      </a></li>
+  </ul>
+</nav>"
+`;

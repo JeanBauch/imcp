@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components:organisms:Header Snapshots should render component 1`] = `
+"<header class=\\"bg-primary-bordo-500 w-full rounded-b-3xl md:rounded-none absolute z-40 top-0\\">
+  <div class=\\"container mx-auto flex items-center justify-between md:justify-center px-6 sm:px-9 py-4\\">
+    <div class=\\"text-white min-h-[35px]\\"><img src=\\"logos/logo-canarinhos.svg\\" alt=\\"Logo Canarinhos\\"></div>
+    <div class=\\"menu-btn\\">
+      <div class=\\"menu-burguer\\"></div>
+    </div>
+  </div>
+  <nav id=\\"navList\\" class=\\"h-0 container mx-auto items-center justify-start px-6 sm:px-9 rounded-b-3xl transition-all ease-in-out duration-700 md:hidden\\">
+    <ul class=\\"flex flex-col gap-2 border-t-2 border-gray border-opacity-20 w-full pt-4 invisible opacity-0\\">
+      <li class=\\"text-white hover:font-semibold\\"><a>
+          Início
+        </a></li>
+      <li class=\\"text-white hover:font-semibold\\"><a>
+          Instituto
+        </a></li>
+      <li class=\\"text-white hover:font-semibold\\"><a>
+          Escola de Música
+        </a></li>
+      <li class=\\"text-white hover:font-semibold\\"><a>
+          Midia
+        </a></li>
+      <li class=\\"text-white hover:font-semibold\\"><a>
+          Noticias
+        </a></li>
+      <li class=\\"text-white hover:font-semibold\\"><a>
+          Agenda
+        </a></li>
+      <li class=\\"text-white hover:font-semibold\\"><a>
+          Contato
+        </a></li>
+      <li class=\\"text-white hover:font-semibold\\"><a>
+          Transparência
+        </a></li>
+    </ul>
+  </nav>
+  <nav class=\\"hidden md:flex mx-auto\\">
+    <ul class=\\"flex justify-center items-center gap-7 xl:gap-12 2xl:gap-16 border-t-2 border-b-2 border-gray border-opacity-20 w-full\\">
+      <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+          <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+            Início
+          </h5>
+        </a></li>
+      <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+          <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+            Instituto
+          </h5>
+        </a></li>
+      <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+          <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+            Escola de Música
+          </h5>
+        </a></li>
+      <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+          <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+            Midia
+          </h5>
+        </a></li>
+      <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+          <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+            Noticias
+          </h5>
+        </a></li>
+      <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+          <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+            Agenda
+          </h5>
+        </a></li>
+      <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+          <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+            Contato
+          </h5>
+        </a></li>
+      <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+          <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+            Transparência
+          </h5>
+        </a></li>
+    </ul>
+  </nav>
+</header>"
+`;

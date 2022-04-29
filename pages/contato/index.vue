@@ -1,41 +1,48 @@
 <template>
-	<div class="h-screen bg-background md:bg-black">
-		<Header />
+	<div class="bg-background">
+		<section class="container mx-auto px-6 sm:px-9 lg:px-24">
+			<div class="flex flex-1 py-3">
+				<Breadcrumb :crumbs="crumbs" />
+			</div>
+			<div class="flex flex-1 items-center justify-center mt-4 md:mt-8 mb-8 md:mb-10">
+				<TitlePage :title="'Contato'" :width="'w-full'" />
+			</div>
+		</section>
 		<section
-			class="bg-background flex flex-col items-center justify-center theme-imcp"
+			class="bg-background flex flex-col items-center justify-center text-black theme-imcp"
 		>
 			<div class="container grid grid-cols-1 justify-items-center">
-				<p class="w-11/12 lg:w-9/12 my-8 text-xs">
-					Início <strong>></strong> <span class="text-gray">Contato</span>
-				</p>
-				<h1 class="text-6xl font-semibold text-primary-orange-500">
-					Contato
-				</h1>
-				<span class="my-8">Separador.....</span>
-				<div class="flex flex-col flex-wrap  lg:flex-row justify-center lg:justify-around w-11/12 xl:w-9/12">
-					<Form />
+				<div class="flex flex-col flex-wrap lg:flex-row justify-center lg:justify-around xl:justify-start w-11/12 2xl:w-4/5">
+					<Form
+						:bordercolor="'bordo'"
+						:btncolor="'yellow'"
+						class="xl:w-3/6"
+						:color="'bordo'"
+						:labelweight="'semibold'"
+						:mensagem="true"
+						:width="'w-11/12 lg:w-4/5'"
+					/>
 
-					<div class="w-full lg:max-w-md flex flex-row lg:flex-col flex-wrap justify-around">
-						<div class="grid grid-cols-1 lg:grid-cols-2 text-center justify-items-center">
-							<i class="w-20 lg:w-52 h-20 lg:h-52 "><img src="icons/large-colors/phone.svg" alt="" srcset=""></i>
-							<span class="flex flex-col justify-center lg:text-left">
-								<h2 class="font-semibold text-3xl lg:text-4xl pt-4 pb-2 lg:pb-4 lg:pt-0">Telefones</h2>
+					<div class="flex flex-row xl:flex-col flex-wrap justify-around lg:justify-center lg:gap-20 w-full xl:max-w-lg">
+						<div class="grid grid-cols-1 xl:grid-cols-2 justify-items-center mb-1">
+							<i class="h-20 xl:h-52 w-20 xl:w-52"><img src="icons/large-colors/phone.svg" alt="" srcset=""></i>
+							<span class="flex flex-col justify-center text-center md:text-left text-lg xl:min-w-[250px]">
+								<h2 class="font-semibold pt-4 pb-2 xl:pb-4 xl:pt-0 text-3xl xl:text-[40px]">Telefones</h2>
 								<p>55 (24) 21044100</p>
 								<p>55 (24) 21044100</p>
 							</span>
 						</div>
-						<div class="grid grid-cols-1 lg:grid-cols-2 text-center justify-items-center lg:mb-16">
-							<i class="w-20 lg:w-52 h-20 lg:h-52 "><img src="icons/large-colors/local-icon.svg" alt="" srcset=""></i>
-							<span class="flex flex-col justify-center lg:text-left">
-								<h2 class="font-semibold text-3xl lg:text-4xl pt-4 pb-2 lg:pb-4 lg:pt-0">Telefones</h2>
-								<p>55 (24) 21044100</p>
-								<p>55 (24) 21044100</p>
+						<div class="grid grid-cols-1 xl:grid-cols-2 justify-items-center xl:mb-16">
+							<i class="h-20 xl:h-52 w-20 xl:w-52"><img src="icons/large-colors/local-icon.svg" alt="" srcset=""></i>
+							<span class="flex flex-col justify-center text-center md:text-left text-lg xl:min-w-[250px]">
+								<h2 class="font-semibold pt-4 pb-2 xl:pb-4 xl:pt-0 text-3xl xl:text-[40px]">Endereço</h2>
+								<p>Rua Santos Dumont -<br class="md:hidden"> 355 <br class="hidden md:block"> Petrópolis - RJ</p>
 							</span>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="w-full my-10">
+			<div class="mt-18 lg:mt-0 mb-10 w-full">
 				<img src="maps/maps2x.png" alt="" srcset="">
 			</div>
 		</section>
@@ -44,13 +51,26 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import Header from '~/components/organisms/Header.vue';
 import Form from '~/components/molecules/Form.vue';
+import TitlePage from '~/components/atoms/TitlePage.vue';
+import Breadcrumb from '~/components/atoms/Breadcrumb.vue';
 export default Vue.extend({
 	name: 'IndexContato',
 	components: {
-		Header,
 		Form,
+		TitlePage,
+		Breadcrumb,
+	},
+	data () {
+		return {
+			crumbs: [{
+				name: 'Inicio',
+				url: '',
+			}, {
+				name: 'Contato',
+				url: 'contato',
+			}],
+		};
 	},
 });
 </script>

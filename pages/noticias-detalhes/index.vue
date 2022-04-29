@@ -1,0 +1,263 @@
+<template>
+	<div class="bg-background">
+		<section class="container mx-auto px-6 sm:px-9 lg:px-24">
+			<div class="flex flex-1 py-3">
+				<Breadcrumb :crumbs="crumbs" />
+			</div>
+		</section>
+		<main
+			class="container mx-auto px-6 sm:px-9 lg:px-24 mt-6 md:mt-8 lg:mt-10 mb-56 flex flex-col items-center font-medium relative"
+		>
+			<div class="flex flex-col-2 justify-center gap-8">
+				<SocialMidiaFooter class="flex-col h-80 sticky top-0 hidden md:flex" />
+				<div
+					class="flex flex-col items-center md:justify-between rounded-3xl bg-white px-6 md:px-30 py-6 md:py-10 gap-3 text-black border border-primary-beige-300"
+				>
+					<div class="w-full flex flex-col items-center">
+						<h1 class="text-2xl md:text-[40px] text-center font-semibold pb-3 md:pb-10 leading-10 text-black">
+							CORAL DAS MENINAS DOS CANARINHOS <br class="hidden md:block"> CELEBRA 33 ANOS
+						</h1>
+						<div class="text-lg font-normal flex flex-row justify-between md:justify-around w-full">
+							<span class="flex items-center"><img class="w-4 h-4 md:w-10 md:h-10 rounded-full mr-4" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" srcset="">
+								FREI AUGUSTO LUIZ GABRIEL</span>
+
+							<span class="flex items-center"><FloatSmallButton :icon="'calendario'" class="mr-4" />
+								NOTÍCIA PUBLICADA EM 10/10/2021</span>
+						</div>
+						<div>
+							<figure class="h-auto rounded-3xl my-4 md:my-9">
+								<img
+									class="w-full h-full max-h-[521px] rounded-3xl"
+									src="https://images.unsplash.com/photo-1644890012903-f3e40f326aab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+									alt=""
+									srcset=""
+								>
+								<figcaption class="text-center mt-2 text-base text-[#9F9F9F]">
+									LEGENDA DA FOTO AQUI
+								</figcaption>
+							</figure>
+							<p class="font-normal text-base md:text-lg md:leading-6">
+								A tradicional Celebração Eucarística das 10 horas na Igreja do
+								Sagrado Coração de Jesus deste domingo (31/10), celebrada por
+								Frei Marcos Antonio de Andrade, presidente do Instituto dos
+								Meninos Cantores de Petrópolis (IMCP), marcou as festividades do
+								33º aniversário do Coral das Meninas dos Canarinhos de
+								Petrópolis. Na ocasião, o celebrante agradeceu a Deus pela vida
+								e história de mais de três décadas do Coral das Meninas. No
+								sábado (30/10) foi lançado pelas plataformas digitais do
+								instituto o “Especial de Aniversário” que apresentou a história
+								de centenas de meninas petropolitanas que passaram sua infância
+								e adolescência dedicando-se à música e que hoje estão espalhadas
+								pelo Brasil e pelo mundo. Um final de semana rico em
+								comemorações, mas também de esperança. Frei Marcos explicou o
+								motivo da ausência das coralistas na Missa festiva:
+								“Infelizmente por problemas de suspeita e contaminação da
+								Covid-19 nossas meninas não puderam se fazer presentes para
+								cantar a Santa Missa”. Agradeceu a presença do Coral dos Frades
+								do Tempo da Teologia que substituiu as coralistas e que desde o
+								início da pandemia não mediram esforços para cantar a Missa das
+								10h e outras solenidades e eventos. Fizeram-se presentes também
+								o maestro do coro feminino, Marcelo Vizani, o diretor artístico
+								e regente dos Canarinhos de Petrópolis, Marco Aurélio Lischt, e
+								a gestora do IMCP, Rose de Mello.
+							</p>
+							<br>
+							<p class="font-normal text-base md:text-lg md:leading-6">
+								Frei Marcos lembrou que nos últimos domingos os Evangelhos de
+								Marcos e de João apresentaram Jesus e a sua missão através de
+								gestos: “Recordo que no domingo passado eu dizia que nós somos
+								como Bartimeu e estamos pedindo ao Senhor para ver e enxergar”.
+								“Nós estamos fazendo esse caminho com Jesus até Jerusalém”,
+								disse. Segundo o presidente do IMCP, vive-se em um tempo de
+								cegueira. “Perdemos o caminho. Estamos como um cego à margem,
+								porque não sabemos qual é o caminho. São tantas informações e
+								tantas notícias de todos os tipos possíveis que não sabemos para
+								onde ir. O mundo virtual nos trouxe um bombardeio de
+								informações”, opinou. Segundo ele, estudos científicos revelam
+								que grande parte das pessoas gasta muito tempo com redes
+								sociais: “Isso faz com que a gente não foque naquilo que é o
+								essencial”. Para Frei Marcos, os Evangelhos destes últimos
+								domingos apresentam um Jesus que mostra qual é o caminho. “Neste
+								31º Domingo do Tempo Comum, Jesus vem dizer claramente, não só
+								para o Escriba, para o mestre da Lei, mas para todos nós: o
+								caminho é o Evangelho e o foco é um só, amar a Deus com tudo
+								aquilo que nós temos e ao próximo também”, revelou. Refletiu que
+								uma das grandes dificuldades atuais é não saber mais amar.
+								“Nesse mundo de informações e de confusão que estamos vivendo,
+								não sabemos nem mesmo o que é o amor. E é difícil compreender o
+								amor porque ‘amor se aprende’, diria o Papa Bento XVI. O amor se
+								aprende e se faz um caminho. E esse caminho é real”, ressaltou
+								Para Frei Marcos, o Evangelho recorda onde está o centro da vida
+								de todo cristão: o amor a Deus e ao próximo. “Às vezes saltamos,
+								mas para nós mesmos. Precisamos fazer um caminho de amar a Deus
+								que se reflete ao amor que eu tenho a minha família, irmãos,
+								amigos, com aqueles que sofrem. Mas é preciso focarmos no amor.
+								Tudo aquilo que os evangelhos dos últimos domingos queriam nos
+								mostrar era isso: o amor”.
+							</p>
+							<br>
+							<p class="font-normal text-base md:text-lg md:leading-6">
+								Para o celebrante, o Evangelho do 31º Domingo do Tempo Comum,
+								Jesus sintetiza tudo aquilo que Ele queria dizer nos domingos
+								passados. Segundo Frei Marcos, amar é um aprendizado de cair,
+								levantar, errar, mas também de querer acertar e de se colocar em
+								um único foco: o caminho do amor. “É isso que vai nos salvar e
+								nos trazer felicidade e alegria. Caso contrário vamos viver numa
+								constante aflição e desespero, numa constante desesperança. O
+								amor nos traz um caminho e nós como cristãos devemos assumir
+								esse projeto e não outros. Que o Senhor nos ajude a viver e a
+								amar como ele amou”, concluiu. Nas preces Frei Marcos rezou
+								pelas coralistas que com inspiração franciscana anunciam a
+								Boa-nova do Evangelho através do canto e da música. A assembleia
+								reunida respondeu: “Fazei-nos, Senhor, fiéis ao vosso Reino”.
+							</p>
+
+							<figure class="h-auto rounded-3xl my-4 md:my-9">
+								<img
+									class="w-full h-full max-h-[521px] rounded-3xl"
+									src="https://images.unsplash.com/photo-1644890012903-f3e40f326aab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+									alt=""
+									srcset=""
+								>
+								<figcaption class="text-center mt-2 text-base text-[#9F9F9F]">
+									LEGENDA DA FOTO AQUI
+								</figcaption>
+							</figure>
+
+							<h2 class="text-xl md:text-3xl mb-2 text-primary-bordo-500 font-medium">
+								VIDA LONGA AO CORAL DAS MENINAS!
+							</h2>
+
+							<p class="font-normal mb-6 md:mb-8 text-base md:text-lg md:leading-6">
+								Segundo o maestro Marcelo Vizani, são três décadas vivendo o
+								Evangelho. “Cantar é uma forma fantástica de distribuir o amor,
+								de distribuir o dom que nós recebemos e queremos passar a todos
+								vocês. Quero agradecer muito. Hoje, sim, nós podemos dizer que a
+								juventude ainda ama fazer música. Ouvindo a celebração, nós
+								vemos o quão complicado anda o mundo virtual. Mas sim, nos
+								Canarinhos nós largamos as redes sociais para aprender, cantar,
+								viver e amar ao próximo. Isso parece ser muito fácil, mas não é.
+								Não é fácil, mas graças a Deus temos uma equipe que oferece
+								suporte e incentivo. Quero agradecer ao Frei Marcos, ao Lischt -
+								que antes de tudo é meu amigo e diretor do coro -, quero
+								agradecer a nossa gestora Rose que de uma forma incansável é
+								como uma mãe para todas as nossas meninas. Quero agradecer a
+								toda equipe administrativa, a todos os professores e a todas as
+								meninas que passaram pelo coral ao longo desses anos. E sim,
+								devemos comemorar os 33 anos com o coração repleto de amor. Vida
+								longa ao Coral das Meninas dos Canarinhos”, desejou. O Diretor
+								Artístico, Marco Aurélio Lischt também parabenizou as meninas
+								por mais um aniversário e aproveitou a ocasião para lembrar que
+								no próximo ano o Coral dos Canarinhos de Petrópolis completa 80
+								anos. “Por isso, gostaria de lembrar que as inscrições para o
+								Curso de Aprendizes dos Corais dos Canarinhos estão abertas.
+								Para as crianças que gostam de cantar e gostariam de fazer parte
+								destes corais, se inscreva”, convidou. Por fim, Frei Marcos
+								agradeceu especialmente aos pais e professores das meninas que
+								neste tempo desafiador souberam se reinventar e parabenizou
+								todas as meninas pelo aniversário de 33 anos. A Santa Missa que
+								foi transmitida pelas redes sociais da Paróquia do IMCP e pela
+								Rádio Imperial, terminou com a solene bênção final.
+							</p>
+
+							<h2 class="text-xl md:text-3xl mb-2 text-primary-bordo-500 font-medium">
+								ESPECIAL DOS 33 ANOS
+							</h2>
+
+							<p class="font-normal mb-6 md:mb-8  text-base md:text-lg md:leading-6">
+								Já às 19 horas do sábado (30/10), foi ao ar pelo canal do
+								YouTube do IMCP, o Especial de 33 anos do Coral das Meninas dos
+								Canarinhos de Petrópolis. Na ocasião, o presidente do instituto
+								agradeceu a Deus pelos 33 anos do Coral das Meninas.
+								“Agradecemos também as famílias que acreditam em nosso trabalho
+								e missão, bem como a todos os colaboradores, amigos e
+								benfeitores deste projeto que atualmente conta com 56 meninas e
+								que tem em seu repertório muita música sacra, folclórica e
+								popular, mas acima de tudo, muita vontade e esperança de um
+								futuro melhor”, disse. “As coralistas nossas felicitações e
+								votos de uma fecunda e profícua missão, embasada nos valores do
+								Evangelho e nas virtudes franciscanas”, parabenizou. Com um
+								repertório produzido pelo coro nestes últimos tempos, o vídeo
+								fez uma homenagem a todas as coralistas destes 33 anos de
+								história. Também apresentou depoimentos, com fotos históricas.
+								Antonio Brochado foi um dos telespectadores e disse: “Orgulho
+								incomensurável de ter minha filha fazendo parte deste Coro que
+								canta, emociona e encanta a todos nós! Obrigado maestro Marcelo
+								Vizani pelo seu carinho com cada uma dessas lindas meninas”,
+								agradeceu. “Que lindo! Parabéns pelo trabalho maravilhoso que
+								vocês fazem e que tenho muito orgulho de dizer que já fiz parte!
+								Saudade chega a doer, se pudesse voltar no tempo, com certeza
+								seria para o tempo do coral! Parabéns!”, desejou a ex-coralista
+								Alice Souza. Já Katia Manangão disse ser um privilégio poder
+								acompanhar de perto parte desta linda história!
+							</p>
+
+							<figure class="h-auto rounded-3xl my-4 md:my-9">
+								<img
+									class="w-full h-full max-h-[521px] rounded-3xl"
+									src="https://images.unsplash.com/photo-1644890012903-f3e40f326aab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+									alt=""
+									srcset=""
+								>
+								<figcaption class="text-center mt-2 text-base text-[#9F9F9F]">
+									LEGENDA DA FOTO AQUI
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="container mx-auto mt-10">
+				<div class="flex flex-col gap-8">
+					<div>
+						<h3 class="text-3xl 2xl:text-[40px] font-semibold">
+							Artigos <span class="text-primary-bordo-500">relacionados</span>
+						</h3>
+					</div>
+					<div
+						class="snap-x flex snap-mandatory overflow-scroll md:overflow-hidden md:snap-none md:grid md:grid-cols-3 md:gap-4 mt-4"
+					>
+						<CardNoticia class="min-w-[80%] mx-1" />
+						<CardNoticia class="min-w-[80%] mx-1" />
+						<CardNoticia class="min-w-[80%] mx-1" />
+					</div>
+					<div class="flex justify-center lg:mt-5">
+						<Button :title="'Ver tudo'" :color="'bordo'" />
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+</template>
+
+<script lang="ts">
+import Vue from 'vue';
+import Breadcrumb from '~/components/atoms/Breadcrumb.vue';
+import Button from '~/components/atoms/Button.vue';
+import CardNoticia from '~/components/molecules/CardNoticia.vue';
+import SocialMidiaFooter from '~/components/molecules/SocialMidiaFooter.vue';
+import FloatSmallButton from '~/components/atoms/FloatSmallButton.vue';
+
+export default Vue.extend({
+	components: { Breadcrumb, Button, CardNoticia, SocialMidiaFooter,	FloatSmallButton },
+	name: 'IndexDetalhe',
+	data () {
+		return {
+			crumbs: [
+				{
+					name: 'Inicio',
+					url: '',
+				},
+				{
+					name: 'Noticias',
+					url: 'noticias',
+				},
+				{
+					name: 'Ver Noticias',
+					url: 'noticias-detalhe',
+				},
+			],
+		};
+	},
+});
+</script>

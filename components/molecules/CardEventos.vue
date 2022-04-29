@@ -1,6 +1,6 @@
 <template>
-	<div class="flex flex-col p-4 bg-white rounded-2xl gap-4 border border-primary-beige-500 shadow-sm min-w-[46%] group">
-		<div class="flex items-center box-border gap-4">
+	<article class="flex flex-col p-4 bg-white rounded-2xl gap-4 border border-primary-beige-500 shadow-sm min-w-[46%] group">
+		<div class="flex items-center box-border gap-6">
 			<DateOnCardEventos :bg-color="bgColor" :date="content.date" />
 			<h4 :class="textColor" class="text-lg sm:text-xl text-left">
 				{{ content.title.toUpperCase() }}
@@ -22,7 +22,7 @@
 				{{ content.date.hour }}
 			</p>
 		</div>
-	</div>
+	</article>
 </template>
 
 <script lang="ts">
@@ -51,7 +51,7 @@ export default Vue.extend({
 		color: {
 			required: true,
 			type: String,
-			default: 'yellow',
+			default: 'bordo',
 			validator: (value: string) => [
 				'bordo',
 				'blue',

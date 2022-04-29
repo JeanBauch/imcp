@@ -52,3 +52,9 @@
 body {
 	font-family: 'Poppins', sans-serif;
 }
+
+/* router link - active border color */
+.nuxt-link-exact-active.nuxt-link-active h5.expect-border-header {
+	border-top-color: rgb(var(--color-primary-alttwo-500));
+	border-top-width: 2px;
+}

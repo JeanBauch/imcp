@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components:organisms:Footer Snapshots should render component 1`] = `
+"<div class=\\"flex justify-around my-10\\">
+  <div>
+    <buttonsocialmidia-stub link=\\"\\" socialmidia=\\"facebook\\"></buttonsocialmidia-stub>
+  </div>
+  <div>
+    <buttonsocialmidia-stub link=\\"\\" socialmidia=\\"instagram\\"></buttonsocialmidia-stub>
+  </div>
+  <div>
+    <buttonsocialmidia-stub link=\\"\\" socialmidia=\\"spotify\\"></buttonsocialmidia-stub>
+  </div>
+  <div>
+    <buttonsocialmidia-stub link=\\"\\" socialmidia=\\"youtube\\"></buttonsocialmidia-stub>
+  </div>
+</div>"
+`;

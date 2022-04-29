@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components:molecules:NavbarDesktop Snapshots should render component 1`] = `
+"<nav class=\\"hidden md:flex mx-auto\\">
+  <ul class=\\"flex justify-center items-center gap-7 xl:gap-12 2xl:gap-16 border-t-2 border-b-2 border-gray border-opacity-20 w-full\\">
+    <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+        <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+          Início
+        </h5>
+      </a></li>
+    <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+        <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+          Instituto
+        </h5>
+      </a></li>
+    <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+        <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+          Escola de Música
+        </h5>
+      </a></li>
+    <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+        <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+          Midia
+        </h5>
+      </a></li>
+    <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+        <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+          Noticias
+        </h5>
+      </a></li>
+    <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+        <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+          Agenda
+        </h5>
+      </a></li>
+    <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+        <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+          Contato
+        </h5>
+      </a></li>
+    <li class=\\"text-white hover:text-primary-yellow-500\\"><a>
+        <h5 class=\\"py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header\\">
+          Transparência
+        </h5>
+      </a></li>
+  </ul>
+</nav>"
+`;

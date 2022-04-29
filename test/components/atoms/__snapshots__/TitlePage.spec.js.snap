@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components:atoms:ButtonInstrument Snapshots should render component with correctly props 1`] = `
+"<div class=\\"flex flex-col items-center gap-2 sm:gap-3 md:gap-4\\">
+  <h1 class=\\"text-4xl md:text-5xl xl:text-6xl font-semibold inline-block text-center xl:leading-tight text-primary-orange-500 w-min\\">
+    Noticias
+  </h1>
+  <div class=\\"w-1/4 max-w-[4rem] h-1 rounded-full bg-primary-yellow-500\\"></div>
+</div>"
+`;

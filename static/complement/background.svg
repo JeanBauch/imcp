@@ -1,0 +1,26 @@
+<svg id="background" xmlns="http://www.w3.org/2000/svg" width="1920" height="232" viewBox="0 0 1920 232">
+  <path id="Caminho_1533" data-name="Caminho 1533" d="M0,0H1920V226.169s-174.733-16.644-537.875-11.825-569.162,25.541-914.693,14.421S0,153.182,0,153.182Z" fill="#7a162e"/>
+  <path id="Caminho_1532" data-name="Caminho 1532" d="M0,0H1920V207.99s-174.733-16.525-537.875-11.741-569.162,41.919-914.693,30.879S0,152.087,0,152.087Z" fill="#991c3a"/>
+  <g id="bolinhas" transform="translate(-24 -1652)">
+    <circle id="bolinha" cx="3" cy="3" r="3" transform="translate(126 1782)" fill="#dd8c5b"/>
+    <circle id="bolinha-2" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(126 1813)" fill="#dd8c5b"/>
+    <circle id="bolinha-3" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(126 1845)" fill="#dd8c5b"/>
+    <circle id="bolinha-4" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(126 1876)" fill="#dd8c5b"/>
+    <circle id="bolinha-5" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(67 1782)" fill="#dd8c5b"/>
+    <circle id="bolinha-6" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(67 1813)" fill="#dd8c5b"/>
+    <circle id="bolinha-7" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(67 1845)" fill="#dd8c5b"/>
+    <circle id="bolinha-8" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(67 1876)" fill="#dd8c5b"/>
+    <circle id="bolinha-9" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(156 1782)" fill="#dd8c5b"/>
+    <circle id="bolinha-10" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(156 1813)" fill="#dd8c5b"/>
+    <circle id="bolinha-11" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(156 1845)" fill="#dd8c5b"/>
+    <circle id="bolinha-12" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(156 1876)" fill="#dd8c5b"/>
+    <circle id="bolinha-13" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(97 1782)" fill="#dd8c5b"/>
+    <circle id="bolinha-14" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(97 1813)" fill="#dd8c5b"/>
+    <circle id="bolinha-15" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(97 1845)" fill="#dd8c5b"/>
+    <circle id="bolinha-16" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(97 1876)" fill="#dd8c5b"/>
+    <circle id="bolinha-17" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(37 1782)" fill="#dd8c5b"/>
+    <circle id="bolinha-18" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(37 1813)" fill="#dd8c5b"/>
+    <circle id="bolinha-19" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(37 1845)" fill="#dd8c5b"/>
+    <circle id="bolinha-20" data-name="bolinha" cx="3" cy="3" r="3" transform="translate(37 1876)" fill="#dd8c5b"/>
+  </g>
+</svg>

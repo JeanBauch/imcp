@@ -42,5 +42,15 @@
 		background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 86%, rgba(2,0,36,1) 100%);
 		@apply w-full h-full top-0 left-0 z-0 absolute rounded-3xl
 	}
-  /*teste CSS*/
+	/*Animate Hover Background ScaleY */
+	.animate-fill-color {
+		@apply before:content-[''] before:xl:content-[url('~/static/complement/ilustração.svg')]
+		before:absolute before:left-0 before:bottom-[-50%] before:w-full before:h-full before:z-[-2]
+		before:transition-transform before:duration-500 before:scale-y-0 before:overflow-hidden
+		hover:before:scale-y-[2] xl:hover:before:scale-y-[2.37]
+	}
+	.animate-fill-color::before {
+		transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+		transform-origin: 0.0;
+	}
 }
