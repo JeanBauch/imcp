@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components:organisms:CardEvents Snapshots should render component 1`] = `
+"<article class=\\"flex flex-col p-4 bg-white rounded-2xl gap-4 border border-primary-beige-500 shadow-sm min-w-[46%] group\\">
+  <div class=\\"flex items-center box-border gap-6\\">
+    <dateoncardeventos-stub date=\\"[object Object]\\" bgcolor=\\"bg-primary-bordo-500\\"></dateoncardeventos-stub>
+    <h4 class=\\"text-lg sm:text-xl text-left text-primary-bordo-500\\">
+      33 ANOS DO CORAL DAS MENINAS CANTORAS DE PETRÓPOLIS
+    </h4>
+  </div>
+  <div class=\\"flex items-center\\">
+    <div><img src=\\"icons/small-icons-colors/bordo/location.svg\\" alt=\\"Icone de marcação de Localização\\"></div>
+    <p class=\\"ml-4 text-sm sm:text-base text-primary-bordo-500\\">
+      Rua Santos Dumont, 355 | Petrópolis - RJ - Brasil
+    </p>
+  </div>
+  <div class=\\"flex\\">
+    <div><img src=\\"icons/small-icons-colors/bordo/clock.svg\\" alt=\\"Icone de Relógio\\"></div>
+    <p class=\\"ml-4 text-sm sm:text-base text-primary-bordo-500\\">
+      10h
+    </p>
+  </div>
+</article>"
+`;

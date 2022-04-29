@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components:atoms:FloatSmallButton Snapshots should render component with icon:compartilhar 1`] = `"<div class=\\"p-[10px] bg-primary-orange-500 md:hover:bg-primary-bordo-500 md:hover:cursor-pointer transition-colors rounded-full flex item scale-[85%] md:scale-100\\"><img src=\\"icons/small-icons-colors/white/compartilhar.svg\\" alt=\\"Icone botão compartilhar\\"></div>"`;

@@ -1,8 +1,7 @@
 <template>
 	<div class="bg-background flex flex-col gap-4 md:gap-8">
-		<!-- Header/ Banner -->
+		<!--Banner -->
 		<section class="h-screen bg-background md:bg-black relative">
-			<Header />
 			<Banner />
 		</section>
 		<!-- Apresentação -->
@@ -24,7 +23,7 @@
 		</section>
 		<!-- Escola de Música -->
 		<section class="container mx-auto my-10">
-			<div class="h-full flex flex-col gap-4 px-6 sm:px-9 lg:px-24">
+			<div class="h-full flex flex-col gap-4 pl-6 sm:pl-9 lg:px-24">
 				<h3 class="text-3xl 2xl:text-4xl font-semibold">
 					Escola de <span class="text-primary-orange-500">Música</span>
 				</h3>
@@ -34,7 +33,7 @@
 					<li>Teoria musical, solfejo e percepção musical</li>
 					<li>Valores franciscanos</li>
 				</ul>
-				<div class="snap-x flex snap-mandatory overflow-scroll md:overflow-hidden md:snap-none md:grid md:grid-cols-3 md:gap-6 mt-4">
+				<div class="snap-x flex snap-mandatory overflow-scroll h-52 md:h-full md:overflow-hidden md:snap-none md:grid md:grid-cols-3 md:gap-6 mt-4">
 					<ButtonInstrument
 						class="snap-center flex-shrink-0 w-5/12 mr-3 md:w-full md:max-h-72 2xl:max-h-fit md:mr-0"
 						:title="'Aprendizes'"
@@ -124,8 +123,6 @@
 				<CardMusicPlayer />
 			</div>
 		</section>
-		<!-- Footer -->
-		<Footer />
 	</div>
 </template>
 
@@ -137,20 +134,17 @@ import Banner from '~/components/molecules/Banner.vue';
 import CardEventos from '~/components/molecules/CardEventos.vue';
 import CardNoticia from '~/components/molecules/CardNoticia.vue';
 import CardMusicPlayer from '~/components/organisms/CardMusicPlayer.vue';
-import Footer from '~/components/organisms/Footer.vue';
-import Header from '~/components/organisms/Header.vue';
 
 export default Vue.extend({
 	name: 'IndexPage',
+	layout: 'homePage',
 	components: {
 		ButtonInstrument,
-		Header,
 		Banner,
 		CardEventos,
 		Button,
 		CardNoticia,
 		CardMusicPlayer,
-		Footer,
 	},
 });
 </script>

@@ -1,5 +1,5 @@
 <template>
-	<header class="bg-primary-bordo-500 w-full rounded-b-3xl md:rounded-none md:bg-white-glass md:backdrop-blur-lg absolute z-40 top-0">
+	<header class="bg-primary-bordo-500 w-full rounded-b-3xl md:rounded-none absolute z-40 top-0" :class="(isHomeToBlur) ? 'md:bg-white-glass md:backdrop-blur-lg' : ''">
 		<Navbar />
 		<NavbarMobile />
 		<NavbarDesktop />
@@ -14,5 +14,11 @@ import NavbarMobile from '../molecules/NavbarMobile.vue';
 
 export default Vue.extend({
 	components: { Navbar, NavbarMobile, NavbarDesktop },
+	props: {
+		isHomeToBlur: {
+			type: Boolean,
+			default: false,
+		},
+	},
 });
 </script>

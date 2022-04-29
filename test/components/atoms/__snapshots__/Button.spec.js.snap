@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components:atoms:Button Snapshots should render component 1`] = `
+"<div><button type=\\"button\\" name=\\"Saiba Mais\\" class=\\"flex items-center justify-center px-6 py-2 md:px-9 md:py-3 rounded-full bg-secondary-blue-500\\">
+    <h4 class=\\"text-white font-medium text-base md:text-lg\\">
+      SAIBA MAIS
+    </h4>
+  </button></div>"
+`;

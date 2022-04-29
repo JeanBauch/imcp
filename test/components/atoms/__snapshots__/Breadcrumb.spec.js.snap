@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components:atoms:Breadcrumb Snapshots should render component with props data 1`] = `
+"<nav id=\\"breadcrumb\\">
+  <ol class=\\"flex\\">
+    <li><a>
+        <p class=\\"text-sm font-light inline-block pr-7 relative after:content-['>'] after:align-bottom after:absolute after:bottom-0 after:right-3\\">
+          Inicio
+        </p>
+      </a></li>
+    <li><a>
+        <p class=\\"text-sm font-light inline-block pr-7 relative after:content-['>'] text-gray after:content-[i]\\">
+          Noticias
+        </p>
+      </a></li>
+  </ol>
+</nav>"
+`;
+
+exports[`Components:atoms:Breadcrumb Snapshots should render component without props data 1`] = `
+"<nav id=\\"breadcrumb\\">
+  <ol class=\\"flex\\"></ol>
+</nav>"
+`;

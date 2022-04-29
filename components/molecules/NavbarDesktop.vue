@@ -1,12 +1,12 @@
 <template>
 	<nav class="hidden md:flex mx-auto">
-		<ul class="flex justify-center items-center gap-7 border-t-2 border-gray border-opacity-20 w-full">
+		<ul class="flex justify-center items-center gap-7 xl:gap-12 2xl:gap-16 border-t-2 border-b-2 border-gray border-opacity-20 w-full">
 			<li v-for="(item, key) in dataHeader" :key="key" class="text-white hover:text-primary-yellow-500">
-				<nuxt-link :to="item.link">
-					<h5 class="py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500">
+				<router-link :to="{ name: item.link }">
+					<h5 class="py-4 border-t-2 border-transparent hover:border-t-primary-yellow-500 expect-border-header">
 						{{ item.name }}
 					</h5>
-				</nuxt-link>
+				</router-link>
 			</li>
 		</ul>
 	</nav>
@@ -21,35 +21,35 @@ export default Vue.extend({
 			dataHeader: [
 				{
 					name: 'Início',
-					link: '/',
+					link: 'index',
 				},
 				{
 					name: 'Instituto',
-					link: '/',
+					link: 'instituto',
 				},
 				{
 					name: 'Escola de Música',
-					link: '/',
+					link: 'utilites',
 				},
 				{
 					name: 'Midia',
-					link: '/',
+					link: 'utilites',
 				},
 				{
 					name: 'Noticias',
-					link: '/',
+					link: 'noticias',
 				},
 				{
 					name: 'Agenda',
-					link: '/',
+					link: 'utilites',
 				},
 				{
 					name: 'Contato',
-					link: '/',
+					link: 'contato',
 				},
 				{
 					name: 'Transparência',
-					link: '/',
+					link: 'utilites',
 				},
 			],
 		};

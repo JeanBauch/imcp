@@ -1,0 +1,15 @@
+<template>
+	<div class="bg-background flex flex-col items-center justify-center gap-4 md:gap-8">
+		<h1>Utilizes testes</h1>
+		<h1>Está tela ainda está sendo criada!</h1>
+		<h3>outro teste</h3>
+	</div>
+</template>
+
+<script lang="ts">
+import Vue from 'vue';
+
+export default Vue.extend({
+	name: 'UtilitesPage',
+});
+</script>
